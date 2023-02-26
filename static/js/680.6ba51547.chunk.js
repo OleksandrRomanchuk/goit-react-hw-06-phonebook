@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[680],{680:function(t,e,r){r.r(e);var s=r(7689),n=r(3329);e.default=function(){var t=(0,s.s0)();return(0,n.jsxs)("div",{children:[(0,n.jsx)("p",{children:"Hi! This is my first test project created on the basis of React.js."}),(0,n.jsx)("button",{type:"button",onClick:function(){return t("/my-contacts")},children:"Get started!"})]})}}}]);
+//# sourceMappingURL=680.6ba51547.chunk.js.map
