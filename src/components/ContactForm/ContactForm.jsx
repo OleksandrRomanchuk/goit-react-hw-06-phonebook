@@ -53,7 +53,7 @@ const ContactForm = ({ toggleModal }) => {
 			dispatch(addContact(formValues));
 			saveDataToLocalSt(localStorageFormValuesKey, initialAddContactFormValues);
 		} else {
-			alert(1);
+			alert('Contact with such names is already in your phone book.');
 		}
 	};
 

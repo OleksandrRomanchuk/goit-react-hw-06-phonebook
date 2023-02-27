@@ -7,7 +7,6 @@ import { contactsInitialState } from 'initials/contactsInitialState';
 const persistConfig = {
 	key: 'contacts',
 	storage,
-	blacklist: ['persist/PERSIST'],
 };
 
 const contactsSlice = createSlice({
@@ -20,8 +19,6 @@ const contactsSlice = createSlice({
 			},
 
 			prepare(contact) {
-				// contact.id = nanoid(8);
-
 				return {
 					payload: { ...contact, id: nanoid(8) },
 				};
